@@ -7,10 +7,13 @@ public class AbstractFactoryTest {
 
     public static void main(String[] args) {
 
-        JavaCourseFactory factory = new JavaCourseFactory();
-
-        factory.createNote().edit();
-        factory.createVideo().record();
+//        JavaCourseFactory factory = new JavaCourseFactory();
+//
+//        factory.createNote().edit();
+//        factory.createVideo().record();
+    	TCLFactory factory =new TCLFactory();
+    	factory.createFridge().iceThing();
+    	factory.createTelevision().playVideo();
 
     }
 
